@@ -15,6 +15,4 @@ def create_report(file_path):
             update_counts(line, counts_dict)
     return counts_dict
 
-
-if __name__ == '__main__':
-    print(create_report('test_text.txt'))
+print(create_report('test_text.txt'))
